@@ -1,0 +1,349 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="/media/pic/logo.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<title>AIC BIMTECH: Business Incubator, Coworking in Greater Noida supported by Niti Aayog and Uttar Pradesh Government</title>
+
+<!-- Mirrored from irsfoundation.com/tf/html/blog-master-preview/blog/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 08:34:36 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog_Master - Blog</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <!-- bootstrap v3.3.7 css -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <!-- animate css -->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+    <!-- owl.carousel.2.0.0-beta.2.4 css -->
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.css' %}">
+    <!-- font-awesome v4.6.3 css -->
+    <link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+    <!-- magnific-popup.css -->
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+    <!-- slicknav.min.css -->
+    <link rel="stylesheet" href="{% static 'assets/css/slicknav.min.css' %}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <!-- modernizr css -->
+    <script src="{% static 'assets/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- header-area start -->
+    <header class="header-area header-area3" style="position:fixed;z-index:16;width:100%;">
+        <div class="header-top bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-12">
+                        <div class="header-top-left">
+                            <a href="/"><img src="/media/pic/logo.png" style="max-height:90px;margin-left:-14px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-sm-12" style="text-align:right;">
+                      <div class="mainmenu" style="margin-top:38px;">
+                      <style>
+                      .ar{
+                        color:#000 !important;
+                      }
+                      </style>
+                          <ul id="navigation">
+                              <li><a href="/" class="ar">Home</a></li>
+                              <li><a href="javascript:void(0)" class="ar">ABOUT <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/aboutus/" class="ar">About us</a></li>
+                                      <li><a  target="_blank" href="https://www.bimtech.ac.in/" class="ar">Bimtech</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="javascript:void(0)" class="ar">PROGRAM <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/incubation/" class="ar">Incubation Program</a></li>
+                                      <li><a href="javascript:void(0)" class="ar">Partner Program<i class="fa fa-angle-right pull-right"></i></a>
+                                          <ul style="text-align:left;">
+                                              <li><a href="/aicbt/partner-program/" class="ar">PGP-DS</a></li>
+                                              <!-- <li><a href="/aicbt/alacrity/" class="ar">Alacrity Program</a></li> -->
+                                              <li><a href="/aicbt/sse/" class="ar">SSE India</a></li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li><a href="javascript:void(0)" class="ar">STARTUPS <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/startup/" class="ar">S01 2018</a></li>
+                                  </ul>
+                              </li>
+
+                              <li><a href="javascript:void(0)" class="ar">COMMUNITY <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/partner/" class="ar">Partners</a></li>
+                                      <li><a href="/aicbt/advisor/" class="ar">Advisors</a></li>
+                                      <li><a href="/aicbt/mentor/" class="ar">Mentors</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="/aicbt/events/" class="ar">EVENTS</a></li>
+                              <li><a href="/blog/" class="ar">STORIES</a></li>
+                              <style>
+                              .signinli a{
+                                border:1px solid #ff0000;
+                                padding:4px 14px;
+                                border-radius: 6px;
+                                color: #ff0000 !important;
+                                }
+                                .signinli a:hover{
+                                  background: #ff0000;
+                                  color:#fff !important;
+                                }
+                                </style>
+                                <li class="signinli"><a href="https://www.f6s.com/aicbimtech17/apply" target="_blank" class="hashscroll" style="padding:4px 14px;">Apply</a></li>
+
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header-area end -->
+    <!-- breadcumb-area start -->
+    <div class="breadcumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-wrap text-center">
+                        <h2 style="margin-top:105px;">Story Page</h2>
+                        <ul>
+                            <li><a href="/" class="ar">Home</a></li>
+                            <li>-</li>
+                            <li class="active">Stories</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcumb-area end -->
+    <!-- blog-area start -->
+    <div class="blog-area">
+        <div class="container">
+            <div class="row">
+
+              {% for blog in category_list %}
+              <div class="col-lg-4  col-md-6 col-12">
+                  <div class="blog-wrap">
+                      <div class="blog-image">
+                          <img src="{{blog.image.url}}" alt="">
+                          <ul>
+                              <li>{{blog.create_date}}</li>
+                          </ul>
+                      </div>
+                      <div class="blog-content">
+                          <div class="blog-meta">
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-heart"></i> like</a></li>
+                                  <li><a href="#"><i class="fa fa-comments"></i>{{blog.comment }} Comments</a></li>
+                              </ul>
+                          </div>
+                          <h3><a href="{% url 'b_detail' blog.id %}" class="ar">{{blog.title}}</a></h3>
+                          <p style="margin-top:0;font-size:13px;line-height:15.2px;">{{blog.short_desc}}</p>
+                      </div>
+                  </div>
+              </div>
+                {% endfor %}
+
+                <!-- <div class="col-12">
+                    <div class="pagination-wrapper text-center mb-30">
+                        <ul class="page-numbers">
+                            <li><a class="prev page-numbers" href="#"><i class="fa fa-arrow-left"></i></a></li>
+                            <li><span class="page-numbers current">1</span></li>
+                            <li><a class="page-numbers" href="#">2</a></li>
+                            <li><a class="page-numbers" href="#">3</a></li>
+                            <li><a class="next page-numbers" href="#"><i class="fa fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- blog-area end -->
+
+    <!-- footer-area start -->
+    <footer>
+
+
+      <div class="container-fluid footerfluid1" style="background:#2165a5;padding:50px 0;">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">INFO</h3>
+
+                  <ul class="footerul">
+<style>
+li a{
+  color:#fff;
+}
+.bat{
+    padding-bottom:15px !important;
+}
+</style>
+                    <li class="bat"><a href="/aicbt/aboutus/">About Us</a></li>
+
+                    <li class="bat"><a href="/aicbt/mentor/">Mentors</a></li>
+
+                    <li class="bat"><a href="aicbt/advisor/">Advisors</a></li>
+
+                    <li class="bat"><a href="/aicbt/incubation/">Incubation</a></li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">QUICK LINKS</h3>
+
+                  <ul class="footerul">
+
+                    <li class="bat"><a href="/aicbt/partner/">Partners</a></li>
+
+                    <li class="bat"><a href="/aicbt/partner-program/">Programs</a></li>
+
+                    <li class="bat"><a href="/aicbt/events/">Events</a></li>
+
+                    <li class="bat"><a href="/blog/">Stories</a></li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">CONTACT</h3>
+
+                  <div class="contact_addrs">
+
+                    <p style="color:#fff;">Plot Number 5, Knowledge Park 2, NCR, Greater Noida, Uttar Pradesh 201306</p>
+
+                    <p style="color:#fff;margin-bottom: 0;margin-top: 15px;">Tel.: +91-120-2323001-10</p>
+
+                    <p style="color:#fff;">Ext. No.: 516</p>
+
+                    <p style="margin-top: 15px;color:#fff;">Email: aic.bimtech@bimtech.ac.in</p>
+
+                  </div>
+
+                  <ul class="foosocial clearfix mt30" style="display:inline-flex;">
+
+
+                                    <li>
+
+                                      <a href="https://www.facebook.com/aicbimtech/" target="_blank">
+
+                                        <i class="fab fa-facebook-f" style="background:#fff;color:#002bff;padding:9px 13px;border-radius:50%;"></i>
+
+
+
+                                      </a>
+
+                                    </li>
+
+                                    <li>
+
+                                      <a href="https://www.linkedin.com/company/aic-bimtech/" target="_blank">
+
+                                        <i class="fab fa-linkedin-in"  style="background:#fff;color:#002bff;padding:9px 13px;border-radius:50%;"></i>
+
+
+
+                                      </a>
+
+                                    </li>
+                    <!-- <li>
+
+                      <a href="" target="_blank">
+
+                        <i class="fa fa-twitter"></i>
+
+                      </a>
+
+                    </li>-->
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- <p class="copyright tac">
+
+            Copyright &copy; 2017 | All Rights Reserved.
+
+          </p> -->
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- footer-area end -->
+    <!-- jquery latest version -->
+    <script src="{% static 'assets/js/vendor/jquery-2.2.4.min.js' %}"></script>
+    <!-- popper.min.js -->
+    <script src="{% static 'assets/js/vendor/popper.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <!-- owl.carousel.2.0.0-beta.2.4 css -->
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+    <!-- plugins js -->
+    <script src="{% static 'assets/js/plugins.js' %}"></script>
+    <!-- main js -->
+    <script src="{% static 'assets/js/scripts.js' %}"></script>
+</body>
+
+
+<!-- Mirrored from irsfoundation.com/tf/html/blog-master-preview/blog/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 08:35:17 GMT -->
+</html>

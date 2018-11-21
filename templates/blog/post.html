@@ -1,0 +1,463 @@
+{% load staticfiles i18n %}
+<!doctype html>
+<html class="no-js" lang="">
+
+
+<!-- Mirrored from irsfoundation.com/tf/html/blog-master-preview/blog/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 08:37:04 GMT -->
+<head>      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="shortcut icon" href="/media/pic/logo.png" />
+    <title>AIC BIMTECH: Business Incubator, Coworking in Greater Noida supported by Niti Aayog and Uttar Pradesh Government</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/png" href="{% static 'assets/images/favicon.png' %}">
+		<!-- Place favicon.ico in the root directory -->
+		<!-- all css here -->
+		<!-- bootstrap v3.3.7 css -->
+		<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+		<!-- animate css -->
+		<link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+		<!-- owl.carousel.2.0.0-beta.2.4 css -->
+		<link rel="stylesheet" href="{% static 'assets/css/owl.carousel.css' %}">
+		<!-- font-awesome v4.6.3 css -->
+		<link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+		<!-- magnific-popup.css -->
+		<link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+		<!-- slicknav.min.css -->
+		<link rel="stylesheet" href="{% static 'assets/css/slicknav.min.css' %}">
+		<!-- style css -->
+		<link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+		<!-- modernizr css -->
+		<script src="{% static 'assets/js/vendor/modernizr-2.8.3.min.js' %}"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- header-area start -->
+    <header class="header-area header-area3" style="position:fixed;z-index:16;width:100%;">
+        <div class="header-top bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-12">
+                        <div class="header-top-left">
+                            <a href="/"><img src="/media/pic/logo.png" style="max-height:90px;margin-left:-14px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-sm-12" style="text-align:right;">
+                      <div class="mainmenu" style="margin-top:38px;">
+                      <style>
+                      .ar{
+                        color:#000 !important;
+                      }
+                      </style>
+                          <ul id="navigation">
+                              <li><a href="/" class="ar">Home</a></li>
+                              <li><a href="javascript:void(0)" class="ar">ABOUT <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/aboutus/" class="ar">About us</a></li>
+                                      <li><a  target="_blank" href="https://www.bimtech.ac.in/" class="ar">Bimtech</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="javascript:void(0)" class="ar">PROGRAM <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/incubation/" class="ar">Incubation Program</a></li>
+                                      <li><a href="javascript:void(0)" class="ar">Partner Program<i class="fa fa-angle-right pull-right"></i></a>
+                                          <ul style="text-align:left;">
+                                              <li><a href="/aicbt/partner-program/" class="ar">PGP-DS</a></li>
+                                              <!-- <li><a href="/aicbt/alacrity/" class="ar">Alacrity Program</a></li> -->
+                                              <li><a href="/aicbt/sse/" class="ar">SSE India</a></li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li><a href="javascript:void(0)" class="ar">STARTUPS <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/startup/" class="ar">S01 2018</a></li>
+                                  </ul>
+                              </li>
+
+                              <li><a href="javascript:void(0)" class="ar">COMMUNITY <i class="fas fa-caret-down" style="color:red;"></i></a>
+                                  <ul style="text-align:left;">
+                                      <li><a href="/aicbt/partner/" class="ar">Partners</a></li>
+                                      <li><a href="/aicbt/advisor/" class="ar">Advisors</a></li>
+                                      <li><a href="/aicbt/mentor/" class="ar">Mentors</a></li>
+                                  </ul>
+                              </li>
+                              <li><a href="/aicbt/events/" class="ar">EVENT</a></li>
+                              <li><a href="/blog/" class="ar">BLOG</a></li>
+                              <style>
+                              .signinli a{
+                                border:1px solid #ff0000;
+                                padding:4px 14px;
+                                border-radius: 6px;
+                                color: #ff0000 !important;
+                                }
+                                .signinli a:hover{
+                                  background: #ff0000;
+                                  color:#fff !important;
+                                }
+                                </style>
+                                <li class="signinli"><a href="https://www.f6s.com/aicbimtech17/apply" target="_blank" class="hashscroll" style="padding:4px 14px;">Apply</a></li>
+
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header-area end -->
+    <!-- breadcumb-area start -->
+    <div class="breadcumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-wrap text-center">
+                        <h2 style="margin-top: 105px;">{{blog.title}}</h2>
+                        <ul>
+                            <li><a href="index.html" style="color:#000 !important;">Home</a></li>
+                            <li>-</li>
+                            <li class="active">Story Detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcumb-area end -->
+    <!-- .blog-details.html-area start -->
+    <div class="blog-details-area ptb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog-wrapper">
+                        <div class="blog-images" style="text-align:center;">
+                            <img src="{{blog.image.url}}" alt="">
+                        </div>
+                        <div class="blog-meta">
+                            <ul>
+                                <li>22 December, 2017</li>
+                                <li>/</li>
+                                <li><a href="#" style="color:#000 !important;">{{blog.title}}</a></li>
+                            </ul>
+                        </div>
+												<!--description-->
+                      {{blog.content|safe}}
+											<!--description-->
+                        <ul class="socil-media">
+													<h3><u>Share on social media</u></h3>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                        </ul>
+                        <div class="comment-main">
+                            <h3 class="blog-title">Comments<span>({{blog.comment}})</span></h3>
+                            <ol class="comments" style="margin-left:20px;">
+                                <li class="comment even thread-even depth-1" id="comment-1">
+																	<div id="valor"></div>
+																	{% for com in comments %}
+																	<div>
+
+
+																	</div>
+                                    <div id="div-comment-1" class="comment-wrap">
+
+                                        <div class="comment-main-area">
+                                            <div class="comment-wrapper">
+                                                <div class="sewl-comments-meta">
+                                                    <h4>{{com.user }}</h4>
+                                                </div>
+                                                <div class="comment-area">
+                                                    <p style="color: #8a8a8a;">{{com.comment }}</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+																		{% endfor %}
+
+
+                                </li>
+                            </ol>
+                        </div>
+												<hr>
+                        <div id="respond" class="sewl-comment-form comment-respond">
+                            <h3 id="reply-title" class="blog-title">Leave a comment</h3>
+
+														<!-- <form id="fomulario">
+														<input name="article" id="commentname">
+														<label for="Nombre">Comment</label>
+														<input type="text" name="nombre" id="nombre" value="hola">
+														<input type="submit">
+														</form> -->
+                            <form novalidate="" method="post" id="fomulario" class="comment-form" action="#0">
+															{% csrf_token %}
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="sewl-form-inputs no-padding-left">
+                                            <div class="row">
+                                                <div class="col-md-6 col-12">
+																								<input type="hidden" name="article" id="commentid" value="{{blog.id}}">
+                                                    <input id="commentname" name="article" tabindex="2" placeholder="Name" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="sewl-form-textarea no-padding-right">
+                                            <textarea id="nombre" name="nombre" tabindex="4" rows="3" cols="30" placeholder="Write Your Comments..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-submit">
+                                            <input name="submit" value="Post Comment" type="submit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .blog-details.html-area end -->
+    <!-- instagram-area start -->
+    <!-- <div class="instagram-area mb-80">
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/1.jpg" alt=""></a>
+        </div>
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/2.jpg" alt=""></a>
+        </div>
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/3.jpg" alt=""></a>
+        </div>
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/4.jpg" alt=""></a>
+        </div>
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/5.jpg" alt=""></a>
+        </div>
+        <div class="instagram-wrap">
+            <a href="#"><img src="assets/images/instragram/2.jpg" alt=""></a>
+        </div>
+        <div class="instagram-content">
+            <a href="#">Follow Instragram</a>
+        </div>
+    </div> -->
+    <!-- instagram-area end -->
+    <!-- footer-area start -->
+		<footer>
+
+
+      <div class="container-fluid footerfluid1" style="background:#2165a5;padding:50px 0;">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">INFO</h3>
+
+                  <ul class="footerul">
+<style>
+li a{
+  color:#fff;
+}
+.bat{
+    padding-bottom:15px !important;
+}
+</style>
+                    <li class="bat"><a href="/aicbt/aboutus/">About Us</a></li>
+
+                    <li class="bat"><a href="/aicbt/mentor/">Mentors</a></li>
+
+                    <li class="bat"><a href="aicbt/advisor/">Advisors</a></li>
+
+                    <li class="bat"><a href="/aicbt/incubation/">Incubation</a></li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">QUICK LINKS</h3>
+
+                  <ul class="footerul">
+
+                    <li class="bat"><a href="/aicbt/partner/">Partners</a></li>
+
+                    <li class="bat"><a href="/aicbt/partner-program/">Programs</a></li>
+
+                    <li class="bat"><a href="/aicbt/events/">Events</a></li>
+
+                    <li class="bat"><a href="/blog/">Blogs</a></li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+
+              <div class="col-selector">
+
+                <div class="footer_data">
+
+                  <h3 style="color:#fff;font-size:20px;margin-bottom:30px;">CONTACT</h3>
+
+                  <div class="contact_addrs">
+
+                    <p style="color:#fff;">Plot Number 5, Knowledge Park 2, NCR, Greater Noida, Uttar Pradesh 201306</p>
+
+                    <p style="color:#fff;margin-bottom: 0;margin-top: 15px;">Tel.: +91-120-2323001-10</p>
+
+                    <p style="color:#fff;">Ext. No.: 516</p>
+
+                    <p style="margin-top: 15px;color:#fff;">Email: aic.bimtech@bimtech.ac.in</p>
+
+                  </div>
+
+                  <ul class="foosocial clearfix mt30" style="display:inline-flex;">
+
+
+                                    <li>
+
+                                      <a href="https://www.facebook.com/aicbimtech/" target="_blank">
+
+                                        <i class="fab fa-facebook-f" style="background:#fff;color:#002bff;padding:9px 13px;border-radius:50%;"></i>
+
+
+
+                                      </a>
+
+                                    </li>
+
+                                    <li>
+
+                                      <a href="https://www.linkedin.com/company/aic-bimtech/" target="_blank">
+
+                                        <i class="fab fa-linkedin-in"  style="background:#fff;color:#002bff;padding:9px 13px;border-radius:50%;"></i>
+
+
+
+                                      </a>
+
+                                    </li>
+                    <!-- <li>
+
+                      <a href="" target="_blank">
+
+                        <i class="fa fa-twitter"></i>
+
+                      </a>
+
+                    </li>-->
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- <p class="copyright tac">
+
+            Copyright &copy; 2017 | All Rights Reserved.
+
+          </p> -->
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- footer-area end -->
+    <!-- jquery latest version -->
+		<script src="{% static 'assets/js/vendor/jquery-2.2.4.min.js' %}"></script>
+    <!-- popper.min.js -->
+    <script src="{% static 'assets/js/vendor/popper.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <!-- owl.carousel.2.0.0-beta.2.4 css -->
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+    <!-- plugins js -->
+    <script src="{% static 'assets/js/plugins.js' %}"></script>
+    <!-- main js -->
+    <script src="{% static 'assets/js/scripts.js' %}"></script>
+</body>
+
+
+<!-- Mirrored from irsfoundation.com/tf/html/blog-master-preview/blog/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Jun 2018 08:37:06 GMT -->
+</html>
+
+
+
+<div id="valor"></div>
+<!-- {% for com in comments %}
+<div>
+		{{com.comment }}
+		{{com.name }}
+</div>
+{% endfor %} -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+
+<script type="text/javascript">
+$(document).on('submit', '#fomulario', function(e){
+    e.preventDefault();
+		 commentid = $('#commentid').val();
+		 comment = $('#nombre').val();
+		 commentname = $('#commentname').val();
+    $.ajax({
+        type:'POST',
+        url:'./comment/',
+        async: 'true',
+        data: {commentid: commentid, comment: comment, commentname: commentname, 'csrfmiddlewaretoken': '{{ csrf_token }}'},
+				success: searchSuccess,
+	      dataType: 'html'
+
+    });
+});
+function searchSuccess(data, textStattus, jqXHR)
+{
+  $('#valor').html(data);
+}
+// document.getElementById("fomulario").onsubmit = function(){
+//     location.reload(true);
+// }
+</script>

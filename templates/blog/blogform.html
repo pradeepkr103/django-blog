@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="shortcut icon" href="/media/pic/logo.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AIC BIMTECH: Business Incubator, Coworking in Greater Noida supported by Niti Aayog and Uttar Pradesh Government</title>
+  <style>
+  body{background:#ff0000;margin:0}
+.form{width:1200px;height:auto;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(39vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+h2{margin:10px 0;padding-bottom:10px;width:180px;color:#78788c;border-bottom:3px solid #78788c}
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+button:hover{background:#78788c;color:#fff}
+div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#50505a;color:#fff;width:320px;padding:16px 4px 16px 0;border-radius:6px;font-size:13px;box-shadow:10px 10px 40px -14px #000}
+span{margin:0 5px 0 15px}
+.submit{
+  cursor:pointer;border-radius:20px;background:#cecece;font-weight: 700;
+}
+.submit:hover{
+  background: #6d6d6d;
+  color:#fff;
+}
+  </style>
+
+  <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+
+</head>
+<body>
+
+
+  <form class="form" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+  <h2>Write Your Blog</h2>
+  <p for="id_title"> Title<input type="text" name="title" required="" id="id_title"></p>
+  <p for="id_image">image<input type="file" name="image" required="" id="id_image"></p>
+  <p for="id_content">Description<input type="text" name="editor1" required="" id="id_content"></p>
+  <p for="id_create_date">Date<input type="text" name="create_date" required="" id="id_create_date"></p>
+<input type="submit" class="submit">
+
+</form>
+		<script>
+			CKEDITOR.replace( 'editor1' );
+		</script>
+
+</body>
+</html>
